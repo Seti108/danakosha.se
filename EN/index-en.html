@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Ideell förening under ledning av Tulku Dakpa Rinpoche som erbjuder kurser i Sverige om buddhistisk praktik och filosofi i den tibetanska Nyingmatraditionen."
+    />
+    <meta
+      property="og:title"
+      content="Danakosha Sverige - Tibetansk Buddhism i Nyingmatraditionen"
+    />
+    <meta
+      property="og:description"
+      content="Kurser i buddhistisk filosofi och praktik med Tulku Dakpa Rinpoche"
+    />
+    <meta
+      property="og:image"
+      content="http://danakosha.se/Images/social-media-img.jpg"
+    />
+    <meta property="og:url" content="http://www.danakosha.se" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script defer src="/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/272446ac1b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/queries.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+    </style>
+    <title>Danakosha Sweden - Tibetan buddhism in the  Nyingma tradition</title>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html">
+        <img src="/Images/sv-flag.svg" id="language-img" alt="language-swedish"></a>
+      <img src="/Images/logo.png" alt="logo" id="logo" />
+      <div id="bars-div"><i class="fas fa-bars"></i></div>
+    </header>
+    <div class="desktop-menu">
+      <ul>
+        <li><i class="fas fa-home"></i><a href="/EN/index-en.html">Home</a></li>
+        <li>
+          <i class="fas fa-dharmachakra"></i><a href="/EN/teacher-en.html">Teacher</a>
+        </li>
+        <li>
+          <i class="fas fa-vihara"></i></i>
+          <a href="/EN/center-en.html">Center</a></li>
+      </ul>
+    </div>
+    <div id="menu" class="hidden">
+      <a href="/EN/index-en.html">Home</a>
+      <a href="/EN/teacher-en.html">Teacher</a>
+      <a href="/EN/center-en.html">Center</a>
+    </div>
+    <main>
+      <h1>Danakosha Sweden</h1>
+      <div class="presentation">
+        <div class="copy">
+          <p id="pres">
+            <p id="description">
+              <em>Tibetan buddhism in the Nyingma tradition</em> </p>
+            Danakosha Sweden is a non-profit organization under the guidance of Tulku Dakpa Rinpoche. Our purpose is making buddhism more available in Sweden and the world in general.
+            We host yearly courses in buddhism with Tulku Dakpa Rinpoche. Fell free to follow our <a href="https://gansub.com/s/oodK1l/">newsletter </a> for updates on our upcoming courses!
+          </p>
+        </div>
+        <div class="pres-tdr">
+          <img src="/Images/tdr1.jpg" alt="Tulku Dakpa Rinpoche" />
+        </div>
+      </div>
+        <h2>Tulku Dakpa Rinpoche</h2>
+          <p class="short-bio">
+            ... born in 1975 as a son of Venerable Lama Thubten Kalsang and Yongdu Wangmo, and he was recognized by H.H. Mindrolling Trichen Rinpoche as the 3rd reincarnation of Drupwang Rogza Sonam Palge Rinpoche. He studied in the college of Mindrolling Monastery, and graduated as a certificated sutric and tantric holder of teachings. Currently he is the spiritual director of the <a href="http://www.danakosha.org">Danakosha
+            Dharma community</a>. His great kindness and generosity of teachings is truly appreciated by his students.
+          </p>
+          <div class="news">
+            <h2>News</h2>
+            <p>
+              Due to the ongoing pandemic all teachings are now given online.
+              <a href="https://danakosha.org/en/schedule/">Click here for online program.</a>
+            </p>
+            <button class="button-news" onclick="showFooter()">
+              <h4>Newsletter✏️</h4>
+            </button>
+          </div>
+      </div>
+      <div class="mail-popup hidden">
+        <input value="info@danakosha.se" />
+        <i class="fas fa-times"></i>
+      </div>
+    </main>
+    <footer>
+      <div id="arrow">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <div class="footer-grid">
+        <div class="newsletter">
+          <h3>Newsletter</h3>
+          <form method="POST" action="https://gansub.com/s/oodK1l/">
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email" />
+            <input type="hidden" name="gan_repeat_email" />
+            <input type="submit" value="Send" />
+        </form>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/Danakosha-Sweden-258268921268717"><i class="fab fa-facebook"></i></a>
+          <i class="far fa-envelope"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

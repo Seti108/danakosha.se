@@ -1,0 +1,17 @@
+{
+  "name": "danakosha-sverige",
+  "version": "1.0.0",
+  "description": "Danakosha Sweden homepage",
+  "main": "script.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "keywords": [],
+  "author": "Sebastian Tigerschiöld",
+  "license": "ISC"
+}
