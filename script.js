@@ -10,6 +10,8 @@ const mailPopup = document.querySelector(".mail-popup");
 
 const mail = document.querySelector(".fa-envelope");
 
+const news = document.querySelector('.button-news');
+
 const width = window.innerWidth;
 
 // Menu toggle
@@ -96,4 +98,10 @@ mailPopup.addEventListener("click", function (e) {
   const value = text.value;
   text.setSelectionRange(0, 99999);
   text.select();
+});
+
+// Prompt showFooter when clicking "Newsletter"
+
+news.addEventListener("click", function () {
+  showFooter();
 });
